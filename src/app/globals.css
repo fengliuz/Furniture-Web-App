@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+:root {
+  --background: #FAF6F0;
+  --foreground: #241A15;
+  --surface: #F0E8DC;
+  --border: #E3D9CB;
+  --primary: #1E352B;
+  --primary-hover: #14241D;
+  --primary-mist: #DCE3DF;
+  --secondary: #6E4730;
+  --secondary-mist: #EFE6DF;
+}
+
+@theme inline {
+  --font-sans: var(--font-plus-jakarta-sans);
+
+  /* Warm Luxury (Japandi Craft) Palette */
+  --color-warm-bg: #FAF6F0;
+  --color-sand: #F0E8DC;
+  --color-linen: #E3D9CB;
+  --color-espresso: #241A15;
+
+  /* Primary Accent (CTAs) */
+  --color-forest: #1E352B;
+  --color-forest-hover: #14241D;
+  --color-forest-mist: #DCE3DF;
+
+  /* Secondary Accent (Badges) */
+  --color-walnut: #6E4730;
+  --color-walnut-mist: #EFE6DF;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-plus-jakarta-sans), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
